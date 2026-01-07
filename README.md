@@ -63,13 +63,11 @@ This project addresses the critical need for accurate script conversion in Mongo
 
 ## About
 
-This project is developed by **Chuck Namjila and the Zcode Team**, working at the intersection of:
+This project is developed to advance Mongolian script digitization and NLP, focusing on:
 - Writing systems & Unicode architecture
-- Mongolian script digitization
+- Mongolian script transformation
 - AI/NLP for low-resource languages
-- Input methods, fonts, and rendering pipelines
-
-The author is also creator of the **Z52 proposal** — a parallel, element-based encoding model for Traditional Mongolian script — and has designed fonts, IMEs, and end-to-end text systems for Mongolian across desktop and mobile platforms.
+- Integration with broader linguistic tools
 
 ## License
 
@@ -82,7 +80,6 @@ If you use this model in your research, please cite:
 ```bibtex
 @project{cyr2mng_transformer,
   title={Cyrillic-Mongolian Transformer},
-  author={Namjila, Chuck and Zcode Team},
   year={2026},
   url={https://github.com/zmongol/cyrillic-mongolian-transformer}
 }
