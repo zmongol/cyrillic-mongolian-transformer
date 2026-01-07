@@ -1,0 +1,31 @@
+This repository contains a bidirectional Transformer-based character-level model for Cyrillic ↔ Traditional Mongolian script transformation.
+
+Unlike rule-based converters or heuristic mappings, this project uses a full neural sequence-to-sequence Transformer trained on aligned parallel text, enabling:
+
+Robust handling of contextual glyph variants
+
+Noise tolerance in real-world text
+
+Extendability to OCR, IME, and NLP pipelines
+
+The system is trained in both directions:
+
+Cyrillic → Traditional Mongolian
+
+Traditional Mongolian → Cyrillic
+
+Each direction is trained independently using a shared architecture but separate vocabularies.
+
+
+
+## About the Author
+
+This project is developed by Chuck Namjila and the Zcode Team.
+
+I work at the intersection of:
+- writing systems & Unicode architecture
+- Mongolian script digitization
+- AI / NLP for low-resource languages
+- input methods, fonts, and rendering pipelines
+
+I am also the author of the Z52 proposal — a parallel, element-based encoding model for the Traditional Mongolian script — and have designed fonts, IMEs, and end-to-end text systems for Mongolian across desktop and mobile platforms.
